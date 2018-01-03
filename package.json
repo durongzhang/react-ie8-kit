@@ -2,7 +2,6 @@
   "name": "react-ie8-kit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "node tools/dev",
     "build": "node tools/build",
