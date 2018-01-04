@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node tools/dev",
     "build": "node tools/build",
-    "start": "NODE_ENV=production node build/server.js"
+    "start": "NODE_ENV=production node build/server.js",
+    "start:prod": "npm run build && npm start"
   },
   "keywords": [],
   "author": "durongzhang",
